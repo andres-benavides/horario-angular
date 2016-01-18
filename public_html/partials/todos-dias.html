@@ -1,0 +1,19 @@
+<md-content class="md-padding" layout="row" layout-wrap layout-align="center start" layout-xs="column">
+  <div flex="50" flex-sm="100" flex-xs="100" layout="column" ng-repeat="clase in clases">
+    <md-card ng-repeat="(dia,value) in clase">
+      <md-card-title>
+        <md-card-title-text>
+          <span class="md-headline">{{dia}}</span>
+          <span class="md-subhead" ng-repeat="cl in value.clase"><hr>{{cl.nombre}}<br><strong>Hora:</strong> {{cl.horario}}<br><strong>{{cl.salon}}</strong></span>
+        </md-card-title-text>
+        <md-card-title-media>
+          <div class="md-media-sm card-media"></div>
+        </md-card-title-media>
+      </md-card-title>
+      <md-card-actions layout="row" layout-align="end center">
+        <md-button>Action 1</md-button>
+        <md-button>Action 2</md-button>
+      </md-card-actions>
+    </md-card>
+  </div>
+</md-content>

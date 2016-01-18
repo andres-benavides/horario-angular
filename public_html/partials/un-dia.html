@@ -1,0 +1,19 @@
+<div class="row" ng-repeat="(dia,value) in clases">
+  <div class="col s12 m6">
+    <div class="card blue darken-4">
+      <div class="card-content white-text">
+        <span class="card-title">{{dia}}</span>
+        <div class="row" ng-repeat="cl in value.clase">
+          <strong>{{cl.nombre}}</strong><br>
+          <strong>Hora:</strong>{{cl.horario}}<br>
+          <strong>{{cl.salon}}</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row" ng-if="!clases">
+  <div class="col s12 m6">
+    <h2>Este día no hay clases</h2>
+  </div>
+</div>

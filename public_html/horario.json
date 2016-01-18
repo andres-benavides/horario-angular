@@ -1,0 +1,71 @@
+[
+  {
+    "lunes": {
+      "clase": [{
+          "nombre": "Ingenieria economica",
+          "horario": "8:30 - 10:00",
+          "salon": "A415"
+        }]
+    }
+  },
+  {
+    "martes": {
+      "clase": [{
+          "nombre": "Programacion integrada y tecnologias Web",
+          "horario": "07:45 - 09:15",
+          "salon": "A415"
+        }]
+    }
+  },
+  {
+    "miercoles": {
+      "clase": [{
+          "nombre": "Gestion de proyectos",
+          "horario": "07:00 - 08:30",
+          "salon": "A415"
+        },
+        {
+          "nombre": "Ingenieria economica",
+          "horario": "08:30 - 10:00",
+          "salon": "A415"
+        }]
+    }
+  },
+  {
+    "jueves": {
+      "clase": [{
+          "nombre": "Calidad de software",
+          "horario": "06:15 - 08:30",
+          "salon": "A415"
+        },
+        {
+          "nombre": "Programacion integrada y tecnologias Web",
+          "horario": "08:30 - 10:00",
+          "salon": "A415"
+        }]
+    }
+  },
+  {
+    "viernes": {
+      "clase": [{
+          "nombre": "Fisica electira",
+          "horario": "06:15 - 07:45",
+          "salon": "A415"
+        },
+        {
+          "nombre": "Gestion de proyectos",
+          "horario": "08:30 - 10:00",
+          "salon": "A415"
+        }]
+    }
+  },
+  {
+    "sabado": {
+      "clase": [{
+          "nombre": "Fisica electira",
+          "horario": "10:00 - 11:30",
+          "salon": "A415"
+        }]
+    }
+  }
+]
